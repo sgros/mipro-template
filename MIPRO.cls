@@ -9,3 +9,8 @@
 \geometry{a4paper, left=20mm, right=20mm, top=25mm, bottom=25mm}
 
 \usepackage[justification=centering]{caption}
+
+\renewcommand\footnoterule{\hspace{-1em}\rule{\linewidth}{0.8pt}\vspace{0.2em}}
+
+%\NewCommandCopy{\oldthanks}{\thanks}
+%\renewcommand{\thanks}[1]{\oldthanks{#1}}
