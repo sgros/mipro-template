@@ -2,15 +2,13 @@
 \IEEEoverridecommandlockouts
 \setlength{\parskip}{3pt}
 
-\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
-    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\setlength{\marginparwidth}{0pt}
+\setlength{\marginparsep}{0pt}
     
-\usepackage{geometry}
-\geometry{a4paper, left=20mm, right=20mm, top=25mm, bottom=25mm}
+\setlength{\columnwidth}{0.25in}
 
-\usepackage[justification=centering]{caption}
+\usepackage{geometry}
+\geometry{nomarginpar, a4paper, left=0.72in, right=0.72in, top=1in, bottom=1in, columnsep=0.25in}
+
 
 \renewcommand\footnoterule{\hspace{-1em}\rule{\linewidth}{0.8pt}\vspace{0.2em}}
-
-%\NewCommandCopy{\oldthanks}{\thanks}
-%\renewcommand{\thanks}[1]{\oldthanks{#1}}
